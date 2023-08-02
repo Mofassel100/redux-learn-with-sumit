@@ -10,7 +10,7 @@ const CounterReducer = (state = initialState, action) => {
       return {
         ...state,
         value: state.value + 1
-      }
+      };
     case DECREMENT:
       return {
         ...state,

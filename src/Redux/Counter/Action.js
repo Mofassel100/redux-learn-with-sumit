@@ -1,15 +1,15 @@
-import React from 'react';
+
 import { DECREMENT, INCREAMENT } from './ActionTypes';
 
-export const Increment = (value) => {
+export const increment = (value) => {
   return {
-    types: INCREAMENT,
+    type: INCREAMENT,
     payload: value
   }
 };
-export const Decrement = (value) => {
+export const decrement = (value) => {
   return {
-    types: DECREMENT,
+    type: DECREMENT,
     payload: value
   }
 };
